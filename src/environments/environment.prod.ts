@@ -1,4 +1,3 @@
 export const environment = {
   production: true ,
-  readonly API_URL = ${environement.apiUrl}
-};
+apiUrl: 'http://193.95.57.13:8082/SpringMVC'}
