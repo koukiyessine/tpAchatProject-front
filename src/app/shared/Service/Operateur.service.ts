@@ -6,7 +6,7 @@ import { environment } from 'src/environments/environment';
   providedIn: 'root'
 })
 export class OperateurService {
-  readonly API_URL = 'http:/${environement.apiUrl}/SpringMVC/operateur';
+  readonly API_URL = 'http:/${environement.apiUrl}/operateur';
 
   constructor(private httpClient: HttpClient) { }
 
