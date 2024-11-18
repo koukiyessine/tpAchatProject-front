@@ -7,7 +7,7 @@ import { environment } from 'src/environments/environment';
   providedIn: 'root'
 })
 export class ProductService {
-  readonly API_URL = 'http://${environement.apiUrl}/SpringMVC/produit';
+  readonly API_URL = 'http://${environement.apiUrl}/produit';
 
   constructor(private httpClient: HttpClient) { }
   getAllProducts() {
